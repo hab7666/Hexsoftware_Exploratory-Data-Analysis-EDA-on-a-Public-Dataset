@@ -1,0 +1,63 @@
+##Project Objective
+
+To perform data cleaning, statistical analysis, and visualization on the Iris dataset to understand the relationship between different flower features and species.
+
+---
+
+## 🗂 Dataset
+
+- **Dataset Name**: Iris.csv
+- **Total Samples**: 150
+- **Features**: 5
+- **Species**: Iris-setosa, Iris-versicolor, Iris-virginica (50 samples each)
+
+**Features:**
+- SepalLengthCm
+- SepalWidthCm
+- PetalLengthCm
+- PetalWidthCm
+- Species (Target Variable)
+
+---
+
+## 🔧 Technologies Used
+
+- **Programming Language**: Python
+- **Libraries**:
+  - Pandas (Data Manipulation)
+  - NumPy
+  - Matplotlib & Seaborn (Visualization)
+  - Plotly (Interactive Plots)
+  - Scikit-learn (Dataset)
+
+---
+
+## 📊 What I Did
+
+### 1. Data Cleaning
+- Loaded and inspected the dataset
+- Checked for missing values
+- Removed unnecessary `Id` column
+- Checked and handled duplicates
+
+### 2. Statistical Analysis
+- Summary statistics (`describe()`)
+- Group-wise analysis by Species
+- Correlation analysis
+
+### 3. Data Visualization
+- Histograms (Feature Distributions)
+- Boxplots (Outlier Detection)
+- Correlation Heatmap
+- Pairplot (Most Important Visualization)
+- Interactive Scatter Plot using Plotly
+
+---
+
+## 📈 Key Insights
+
+- **Setosa** species is clearly separable from Versicolor and Virginica based on petal measurements.
+- Strong positive correlation between **Petal Length** and **Petal Width**.
+- **Virginica** has the largest petals on average.
+- Very balanced dataset with no missing values.
+- Sepal Width has the least correlation with other features.
